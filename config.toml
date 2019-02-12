@@ -24,7 +24,7 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-6.css"
+    styles = "styles-3.css"
 
 # Sidebar sections
 
@@ -112,7 +112,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "**With over a decade in the IT industry**, I have been able to use my problem solving abilities, ingenuity, and my knowledge of best-practices and real world application to further my clients and the projects I work on. Many consider my interpersonal skills to be more developed than most of the people in the IT industry, and I thrive on tackling new challenges and engineering the best solutions. I am well versed in automation tooling, cloud and on-prem networking, systems architecture, SecOps, as well as troubleshooting at the hardware, software, and application levels of most systems put in front of me. I always aim to develop appropriate solutions for the appropriate time frame and budget. I am always seeking new opportunities to develop cohesive technology ecosystems which can provide the ideal environment for both backend developers and the front end user experience."
 
     # Experiences section
     [params.experiences]
@@ -124,36 +124,46 @@ disable404 = true
         position = "DevOps Engineer"
         dates = "2017 - Present"
         company = "BrainGu, LLC"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        details = "I work collaberatively with developers, project managers, and upper management to guarantee end products and results that both we and our customers love. "
 
         [[params.jobs.list]]
-        position = "Senior Network Technician / Manager of IT Services"
+        position = "Network Engineer / Manager of IT Services"
         dates = "2014 - 2016"
         company = "TOURtech"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "Worked with both internal and external teams to guarantee success at the events we built and operated. Helped coordinate 50+ shows during my tenure. Built the \"Tech Wiki\" for configuration and knowledge management."
 
         [[params.jobs.list]]
         position = "Systems Administrator I/II"
         dates = "2010 - 2014"
         company = "Production Resource Group"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "Played a key role in maintaining day-to-day functionality of all networked services (Asset management platform, Cisco phones, print services, networked storage, facility access control, security system management, day-to-day hardware/software problems, client and project management, etc.) both locally and nationwide."
 
     # Projects section
     [params.projects]
-        enable = false
+        enable = true
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "Structsure @ BrainGu"
+        url = "https://www.structsure.com"
+        tagline = "Compliant Platform-As-A-Service offering simplifed deployments of necessary applications for almost any business."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "Austin City Limits Music Festival 2015"
+        url = "https://www.aclfestival.com/"
+        tagline = "Designed the network architecture, deployed, and troubleshot both the production networking and AT&T public Wifi for VIP attendees. Successfully provided internet to 80,000+ wired and wireless clients over two weekends of the music festival including POS, Access Control, CCTV, and attendee wifi."
+
+        [[params.projects.list]]
+        title = "PRG Los Angeles Facility Move"
+        url = "https://www.prg.com/locations/los-angeles"
+        tagline = "Moved from ~80,000sqft warehouse to a ~135,000sqft warehouse; performed a full upgrade of all network infrastructure and upgraded desktop clients for office and warehouse use."
+
+        [[params.projects.list]]
+        title = "PRG New Jersey Facility Move"
+        url = "https://www.prg.com/locations/secaucus"
+        tagline = "Assisted in merging two company locations from Mt. Vernon, NY and North Bergen, NJ into a single facility in Secaucus, NJ. 130+ employees and 90+ workstations migrated, as well as assisting with testing various core systems (Ethernet integrity, paging systems, video security systems)."
 
     # Skills section
     [params.skills]
@@ -186,12 +196,20 @@ disable404 = true
         level = "68%"
 
         [[params.skills.list]]
-        skill = "Hashicorp Vault"
+        skill = "Gitlab/Github/Bitbucket"
         level = "80%"
 
         [[params.skills.list]]
+        skill = "Hashicorp Vault"
+        level = "77%"
+
+        [[params.skills.list]]
         skill = "Asterisk VoIP"
-        level = "80%"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "pfSense"
+        level = "95%"
 
         [[params.skills.list]]
         skill = "Linux"
