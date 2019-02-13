@@ -1,0 +1,8 @@
+# Ignore Filetypes
+public.zip
+*.un~
+**.DS_Store
+
+# Ignore Folders
+public/**
+code/**
