@@ -229,6 +229,18 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.main-wrapper .location-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .locations-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .locations-section .item {
+  margin-bottom: 15px;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;

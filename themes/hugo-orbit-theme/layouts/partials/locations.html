@@ -1,0 +1,11 @@
+            <section class="section locations-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.location.icon }}"></i>{{ i18n "location" }}</h2>
+                <div class="intro">
+                    <p>{{ with .Site.Params.location.intro }}{{ . | markdownify }}{{ end }}</p>
+                </div><!--//intro-->
+				{{ range .Site.Params.location.list }}
+                <div class="item">
+                    <span class="project-title">{{ .title }}</span> - <span class="project-tagline">{{ with .tagline }}{{ . | markdownify }}{{ end }}</span>
+                </div><!--//item-->
+				{{ end }}
+            </section><!--//section-->

@@ -92,16 +92,17 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Homelabbing"
-
-        [[params.interests.list]]
-        interest = "Food & Cooking"
-
-        [[params.interests.list]]
         interest = "Music"
-
         [[params.interests.list]]
         interest = "Gaming"
+        [[params.interests.list]]
+        interest = "Learning"
+        [[params.interests.list]]
+        interest = "Homelabbing"
+        [[params.interests.list]]
+        interest = "Food & Cooking"
+        [[params.interests.list]]
+        interest = "Concerts and Live Events"
 
 # Main body sections
 
@@ -121,10 +122,16 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Senior Network Engineer, Systems and Design"
+        dates = "2019 - Present"
+        company = "TOURtech"
+        details = "Building and implementing better automation tooling for deploying the necessary configurations to different types of devices; work with the Field Services team to ensure that on-site issues are handled appropriately and in a timely manner. Work on bettering the customer experience with technology."
+
+        [[params.jobs.list]]
         position = "DevOps Engineer"
-        dates = "2017 - Present"
+        dates = "2017 - 2019"
         company = "BrainGu, LLC"
-        details = "I work collaberatively with developers, project managers, and upper management to guarantee end products and results that both we and our customers love. "
+        details = "Worked collaberatively with developers, project managers, and upper management to guarantee end products and results that both we and our customers love. Primarily worked on the Structsure Project building out the system architecture and automated deployment and updating functionality of the application being built."
 
         [[params.jobs.list]]
         position = "Network Engineer / Manager of IT Services"
@@ -137,6 +144,12 @@ disable404 = true
         dates = "2010 - 2014"
         company = "Production Resource Group"
         details = "Played a key role in maintaining day-to-day functionality of all networked services (Asset management platform, Cisco phones, print services, networked storage, facility access control, security system management, day-to-day hardware/software problems, client and project management, etc.) both locally and nationwide."
+
+        [[params.jobs.list]]
+        position = "Systems Administrator Intern"
+        dates = "Summer 2009"
+        company = "Production Resource Group"
+        details = "Performed day-to-day helpdesk support for the US; performed Active Directory schema changes."
 
     # Projects section
     [params.projects]
@@ -163,6 +176,28 @@ disable404 = true
         title = "PRG New Jersey Facility Move"
         url = "https://www.prg.com/locations/secaucus"
         tagline = "Assisted in merging two company locations from Mt. Vernon, NY and North Bergen, NJ into a single facility in Secaucus, NJ. 130+ employees and 90+ workstations migrated, as well as assisting with testing various core systems (Ethernet integrity, paging systems, video security systems)."
+
+    # Location section
+    [params.location]
+        enable = true
+        icon = "fa-globe"
+        title = "Locations"
+
+        [[params.location.list]]
+        title = "Westchester, NY"
+        tagline = "April 2010 - January 2011"
+
+        [[params.location.list]]
+        title = "North Bergen, NJ"
+        tagline = "January 2011 - June 2012"
+
+        [[params.location.list]]
+        title = "Los Angeles, CA"
+        tagline = "June 2012 - November 2015"
+
+        [[params.location.list]]
+        title = "Raleigh, NC"
+        tagline = "November 2015 - Current"
 
     # Skills section
     [params.skills]

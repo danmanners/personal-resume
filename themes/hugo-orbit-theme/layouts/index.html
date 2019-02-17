@@ -23,6 +23,10 @@
     {{ partial "projects.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.location.enable }}
+    {{ partial "locations.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.skills.enable }}
 	{{ partial "skills.html" . }}
     {{ end }}
