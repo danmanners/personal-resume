@@ -24,14 +24,14 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-3.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
         name = "Dan Manners"
-        tagline = "DevOps Engineer/Architect, Solutions Designer"
+        tagline = "Senior Network Engineer | DevOps Engineer | Solutions Designer"
         avatar = "dan.png"
 
     # Contact section
@@ -48,6 +48,12 @@ disable404 = true
         class = "phone"
         icon = "fa-phone"
         url = "tel:+19147155428"
+        title = "+19147155428"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-comments"
+        url = "sms:+19147155428"
         title = "+19147155428"
 
         [[params.contact.list]]
@@ -104,6 +110,47 @@ disable404 = true
         [[params.interests.list]]
         interest = "Concerts and Live Events"
 
+    # Skills section
+    [params.rskill]
+        enable = true
+        title = "Skills & Proficiency"
+        [[params.rskill.list]]
+        skill = "On-Prem Networking"
+        level = "92%"
+        [[params.rskill.list]]
+        skill = "Python, Django & Flask"
+        level = "68%"
+        [[params.rskill.list]]
+        skill = "Gitlab/Github/Bitbucket"
+        level = "80%"
+        [[params.rskill.list]]
+        skill = "pfSense"
+        level = "95%"
+        [[params.rskill.list]]
+        skill = "Asterisk VoIP"
+        level = "75%"
+        [[params.rskill.list]]
+        skill = "Linux"
+        level = "88%"
+        [[params.rskill.list]]
+        skill = "Automation Tooling"
+        level = "79%"
+        [[params.rskill.list]]
+        skill = "Docker & Kubernetes"
+        level = "73%"
+        [[params.rskill.list]]
+        skill = "Amazon Web Services"
+        level = "88%"
+        [[params.rskill.list]]
+        skill = "DigitalOcean"
+        level = "84%"
+        [[params.rskill.list]]
+        skill = "Hashicorp Vault"
+        level = "77%"
+        [[params.rskill.list]]
+        skill = "Windows System Administration"
+        level = "58%"
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -113,7 +160,10 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**With over a decade in the IT industry**, I have been able to use my problem solving abilities, ingenuity, and my knowledge of best-practices and real world application to further my clients and the projects I work on. Many consider my interpersonal skills to be more developed than most of the people in the IT industry, and I thrive on tackling new challenges and engineering the best solutions. I am well versed in automation tooling, cloud and on-prem networking, systems architecture, SecOps, as well as troubleshooting at the hardware, software, and application levels of most systems put in front of me. I always aim to develop appropriate solutions for the appropriate time frame and budget. I am always seeking new opportunities to develop cohesive technology ecosystems which can provide the ideal environment for both backend developers and the front end user experience."
+        # summary = """**With over a decade in the IT industry**, I have been able to use my problem solving abilities, ingenuity, and my knowledge of best-practices and real world application to further my clients and the projects we work on.
+        summary = """**With over a decade in the IT industry**, I have been able to use my problem solving abilities, ingenuity, and my knowledge of best-practices to best support my clients goals and the projects we work on.
+        \nMany consider my interpersonal skills to be more developed than most of the people in the IT industry, and I thrive on tackling new challenges and engineering the best solutions. I am well versed in automation tooling, cloud and on-prem networking, systems architecture, SecOps, as well as troubleshooting at the hardware, software, and application levels of most systems put in front of me.
+        \nI always aim to develop appropriate solutions for the appropriate time frames and budget. I am always seeking new opportunities to develop cohesive systems which can provide the ideal environments for both developers and their end users."""
 
     # Experiences section
     [params.experiences]
@@ -125,7 +175,7 @@ disable404 = true
         position = "Senior Network Engineer, Systems and Design"
         dates = "2019 - Present"
         company = "TOURtech"
-        details = "Building and implementing better automation tooling for deploying the necessary configurations to different types of devices; work with the Field Services team to ensure that on-site issues are handled appropriately and in a timely manner. Work on bettering the customer experience with technology."
+        details = "Building and implementing better systems for deploying the necessary configurations to different types of devices; Work with the Field Services team to ensure that on-site issues are handled appropriately and in a timely manner; Work on bettering both the customer experience as well as both the on-site and remote administration experience with technology."
 
         [[params.jobs.list]]
         position = "DevOps Engineer"
@@ -135,7 +185,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Network Engineer / Manager of IT Services"
-        dates = "2014 - 2016"
+        dates = "2014 - 2017"
         company = "TOURtech"
         details = "Worked with both internal and external teams to guarantee success at the events we built and operated. Helped coordinate 50+ shows during my tenure. Built the \"Tech Wiki\" for configuration and knowledge management."
 
@@ -149,13 +199,28 @@ disable404 = true
         position = "Systems Administrator Intern"
         dates = "Summer 2009"
         company = "Production Resource Group"
-        details = "Performed day-to-day helpdesk support for the US; performed Active Directory schema changes."
+        details = "Performed day-to-day helpdesk support for the US; built and applied Active Directory schema changes."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
+
+        [[params.projects.list]]
+        title = "CAPCOM @ TOURtech"
+        url = "https://www.tourtech.com"
+        tagline = """Built out a highly scalable platform, primarily around Open Source Software, to allow simultaneous remote management and support to multiple event sites. This includes:
+        \n- CCTV Cameras
+        \n- Temporary wired and wireless infrastructure
+        \n- Logging and Metrics collection
+        \n- Integration with on-site radio communications
+        \nCAPCOM provides the ability for a less-qualified network technician on multiple event sites while a highly-trained remote Network engineer can oversee simultaneous live events from a single physical location."""
+
+        [[params.projects.list]]
+        title = "EventBuilder @ TOURtech"
+        url = "https://www.tourtech.com"
+        tagline = "Built an easy-to-use web interface to generate TOURtech specific configuration files for the various hardware used by the organization on a per-event basis. This streamlined configuration management by nearly a full day of work per job."
 
         [[params.projects.list]]
         title = "Structsure @ BrainGu"
@@ -199,9 +264,9 @@ disable404 = true
         title = "Raleigh, NC"
         tagline = "November 2015 - Current"
 
-    # Skills section
+    # Legacy Skills section
     [params.skills]
-        enable = true
+        enable = false
         icon = "fa-rocket"
         title = "Skills & Proficiency"
 
@@ -215,7 +280,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Docker & Kubernetes"
-        level = "73%"
+        # level = "73%"
 
         [[params.skills.list]]
         skill = "Amazon Web Services"
