@@ -1,0 +1,8 @@
+<div class="language-container container-block">
+<h2 class="container-block-title">{{ i18n "skills" }}</h2>
+<ul class="list-unstyled interests-list">
+{{ range .Site.Params.rskill.list }}
+    <li>{{ .skill }}<!-- <span class="lang-desc">({{ .level }})</span> --></li>
+{{ end }}
+</ul>
+</div><!--//language-->

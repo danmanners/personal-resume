@@ -22,4 +22,8 @@
 		{{ partial "interests.html" . }}
 		{{ end }}
 
+		{{ if .Site.Params.rskill.enable }}
+		{{ partial "skill_right.html" . }}
+		{{ end }}
+
         </div><!--//sidebar-wrapper-->
