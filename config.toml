@@ -172,34 +172,40 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "DevOps Engineer"
+        dates = "2020 - Present"
+        company = "Cisco"
+        details = "More to come as the job begins!"
+
+        [[params.jobs.list]]
         position = "Senior Network Engineer, Systems and Design"
-        dates = "2019 - Present"
-        company = "TOURtech"
-        details = "Building and implementing better systems for deploying the necessary configurations to different types of devices; Work with the Field Services team to ensure that on-site issues are handled appropriately and in a timely manner; Work on bettering both the customer experience as well as both the on-site and remote administration experience with technology."
+        dates =    "2019 - 2020Covid-19"
+        company =  "TOURtech"
+        details =  "Building and implementing better systems for deploying the necessary configurations to different types of devices; Work with the Field Services team to ensure that on-site issues are handled appropriately and in a timely manner; Work on bettering both the customer experience as well as both the on-site and remote administration experience with technology."
 
         [[params.jobs.list]]
         position = "DevOps Engineer"
-        dates = "2017 - 2019"
-        company = "BrainGu, LLC"
-        details = "Worked collaberatively with developers, project managers, and upper management to guarantee end products and results that both we and our customers love. Primarily worked on the Structsure Project building out the system architecture and automated deployment and updating functionality of the application being built."
+        dates =    "2017 - 2019"
+        company =  "BrainGu, LLC"
+        details =  "Worked collaberatively with developers, project managers, and upper management to guarantee end products and results that both we and our customers love. Primarily worked on the Structsure Project building out the system architecture and automated deployment and updating functionality of the application being built."
 
         [[params.jobs.list]]
         position = "Network Engineer / Manager of IT Services"
-        dates = "2014 - 2017"
-        company = "TOURtech"
-        details = "Worked with both internal and external teams to guarantee success at the events we built and operated. Helped coordinate 50+ shows during my tenure. Built the \"Tech Wiki\" for configuration and knowledge management."
+        dates =    "2014 - 2017"
+        company =  "TOURtech"
+        details =  "Worked with both internal and external teams to guarantee success at the events we built and operated. Helped coordinate 50+ shows during my tenure. Built the \"Tech Wiki\" for configuration and knowledge management."
 
         [[params.jobs.list]]
         position = "Systems Administrator I/II"
-        dates = "2010 - 2014"
-        company = "Production Resource Group"
-        details = "Played a key role in maintaining day-to-day functionality of all networked services (Asset management platform, Cisco phones, print services, networked storage, facility access control, security system management, day-to-day hardware/software problems, client and project management, etc.) both locally and nationwide."
+        dates =    "2010 - 2014"
+        company =  "Production Resource Group"
+        details =  "Played a key role in maintaining day-to-day functionality of all networked services (Asset management platform, Cisco phones, print services, networked storage, facility access control, security system management, day-to-day hardware/software problems, client and project management, etc.) both locally and nationwide."
 
         [[params.jobs.list]]
         position = "Systems Administrator Intern"
-        dates = "Summer 2009"
-        company = "Production Resource Group"
-        details = "Performed day-to-day helpdesk support for the US; built and applied Active Directory schema changes."
+        dates =    "Summer 2009"
+        company =  "Production Resource Group"
+        details =  "Performed day-to-day helpdesk support for the US; built and applied Active Directory schema changes."
 
     # Projects section
     [params.projects]
