@@ -175,11 +175,11 @@ disable404 = true
         position = "DevOps Engineer"
         dates = "2020 - Present"
         company = "Cisco"
-        details = "More to come as the job begins!"
+        details = "Working with the Engineering IT team to design, build and implement a platform to streamline code and package deployment to both internal and zero-trust partner locations."
 
         [[params.jobs.list]]
         position = "Senior Network Engineer, Systems and Design"
-        dates =    "2019 - 2020Covid-19"
+        dates =    "2019 - 2020"
         company =  "TOURtech"
         details =  "Building and implementing better systems for deploying the necessary configurations to different types of devices; Work with the Field Services team to ensure that on-site issues are handled appropriately and in a timely manner; Work on bettering both the customer experience as well as both the on-site and remote administration experience with technology."
 
