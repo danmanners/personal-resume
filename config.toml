@@ -152,18 +152,15 @@ disable404 = true
         level = "58%"
 
 # Main body sections
-
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
-
     # Summary section
     [params.summary]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        # summary = """**With over a decade in the IT industry**, I have been able to use my problem solving abilities, ingenuity, and my knowledge of best-practices and real world application to further my clients and the projects we work on.
-        summary = """**With over a decade in the IT industry**, I have been able to use my problem solving abilities, ingenuity, and my knowledge of best-practices to best support my clients goals and the projects we work on.
-        \nMany consider my interpersonal skills to be more developed than most of the people in the IT industry, and I thrive on tackling new challenges and engineering the best solutions. I am well versed in automation tooling, cloud and on-prem networking, systems architecture, SecOps, as well as troubleshooting at the hardware, software, and application levels of most systems put in front of me.
-        \nI always aim to develop appropriate solutions for the appropriate time frames and budget. I am always seeking new opportunities to develop cohesive systems which can provide the ideal environments for both developers and their end users."""
+        summary = """**With over a decade in the IT industry**, I have been able to use my problem solving abilities, ingenuity, and my knowledge of best-practices to support my clients’ goals and the projects we work on.
+        \nI thrive on tackling new challenges and engineering the best solutions. I am well-versed in automation tooling, cloud and on-prem networking, systems architecture, SecOps. Additionally, I am experienced in troubleshooting at the hardware, software, and application levels of most systems put in front of me.
+        \nI always aim to develop appropriate solutions for the appropriate time frames and within budget. I am always seeking new opportunities to develop cohesive systems which can provide the ideal environments for both developers and their end users."""
 
     # Experiences section
     [params.experiences]
