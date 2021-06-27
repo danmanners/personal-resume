@@ -21,11 +21,6 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
-      # Go ahead and build the Hugo code into the directory
-      - uses: jakejarvis/hugo-build-action@master
-        with:
-          args: --minify
-
       # Makes sure to log into Dockerhub
       - name: Login to DockerHub
         uses: docker/login-action@v1
@@ -36,14 +31,14 @@ jobs:
       # Should be the equivilant of this command
       # docker buildx build --no-cache --push \
       #   --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6,linux/arm/v8 \
-      #   -t danielmanners/danmanners-dot-com:flux .
+      #   -t danielmanners/danmanners-dot-com .
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
           context: .
-          platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6
+          platforms: linux/amd64,linux/arm64
           file: ./dockerfile
           push: true
           no-cache: true
           tags: |
-            danielmanners/resume-dot-danmanners-dot-com:flux
+            danielmanners/resume-dot-danmanners-dot-com:latest
