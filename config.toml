@@ -39,6 +39,12 @@ disable404 = true
         enable = true
 
         [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//danmanners.com"
+        title = "danmanners.com"
+
+        [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
         url = "mailto:daniel.a.manners@gmail.com"
@@ -55,12 +61,6 @@ disable404 = true
         icon = "fa-comments"
         url = "sms:+19147155428"
         title = "+19147155428"
-
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//danmanners.com"
-        title = "danmanners.com"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -169,9 +169,15 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "DevOps Engineer"
-        dates = "2020 - Present"
+        position = "Senior Site Reliability Engineer"
+        dates = "2021 - Present"
         company = "Cisco"
+        details = "Building, implementing, and supporting cloud infrastructure. Updating and maintinaing our on-prem Kubernetes clusters. Always working to improve the customer development workflow experience."
+
+        [[params.jobs.list]]
+        position = "DevOps Engineer"
+        dates = "2020 - 2021"
+        company = "Cisco (TEKSystems Contract)"
         details = "Working with the Engineering IT team to design, build and implement a platform to streamline code and package deployment to both internal and zero-trust partner locations."
 
         [[params.jobs.list]]
